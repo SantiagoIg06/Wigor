@@ -1,0 +1,210 @@
+*{
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    /* background-color: #938576; Fondo beige claro */
+    color: #000000; /* Texto en negro */
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #DDB584; /* Color de fondo de la barra de navegación */
+}
+
+.navbar-brand img {
+    height: 70px; /* Aumenta el tamaño del logo */
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff; /* Texto blanco para la pestaña activa */
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo blanco semitransparente para indicar la página activa */
+    border-radius: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f4f4f4;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+h1, h2, h3, p {
+    padding: 20px 10px;
+    margin: 0px;
+}
+.cont1 {
+    padding: 3%;
+    background-color: #938576;
+    display: flex;
+    justify-content: center;
+}
+.seccionP {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    width: 35%;
+    font-size: 20px;
+    text-align: justify;
+}
+.imgP {
+    width: 100% ;
+}
+.imgPrdcts {
+    width: 20% ;
+    margin: 5px;
+}
+.section2 {
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+}
+div h1 {
+    background-color: #938576;
+}
+.cont2I {
+    width: 60%;
+}
+.cont2I div {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.cont2I div img{
+    width: 40%;
+    text-align: justify;
+    margin: 10px;
+}
+
+.contP2 {
+    display: flex;
+    justify-content: center;
+}
+.contQ2, .contRH2, .contMV2, .contI2,.contRI2 {
+    width: 60%;
+    padding: 10px;
+}
+.contQ, .contRH, .contMV, .contI ,.contRI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.contQ p, .contRH p, .contMV p, .contI p, .contRI p {
+    text-align: justify;
+    margin: 20px;
+}
+.contQ, .contMV, .contRI {
+    background-color: #938576;
+}
+
+.contI, .contRH {
+    padding: 50px;
+    background-image: url(./imgs/392936933_18098423557360857_5160659202981717583_n.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.contI .contI2, .contRH .contRH2 {
+    color: #fff;
+    background-color: #0009;
+    border-radius: 15px;
+}
+.contQ2 div img{
+    width: 40%;
+    padding: 10px;
+}
+.contQ2 div {
+    display: flex;
+}
+.contMV {
+    display: flex;
+    justify-content: center;
+}
+.contMV div {
+    width: 40%;
+}
+.contMV div img {
+    width: 80%;
+}
+.contRI {
+    display: flex;
+}
+.contRI2 {
+    width: 60%;
+}
+.contRI3 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contRI3 img {
+    width: 80%;
+}
+.contenido3 {
+    display: flex;
+    width: 80%;
+}
+.contG1 {
+    background-color: #FEE7EF;
+}
+.contenidoP {
+    display: flex;
+    justify-content: center;
+}
+.contenidoP div {
+    width: 60%;
+}
+.contenidoP div p {
+    text-align: justify;
+}
+.formG {
+    background-color: #938576;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 40px  10px;
+
+}
+.formP {
+    width: 50%;
+}
+.btn-enviar {
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #938576;
+}
+.btn-enviar:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #938576;
+}
+.contC2 {
+    background-image: url(./imgs/402619775_18102301702360857_5714319321361274215_n.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.contC2 div {
+    margin: 20px;
+    border-radius: 15px;
+    width: 50%;
+    background-color: #0009;
+    color: #fff;
+}
+.contC2 h4 {
+    padding: 20px;
+}
