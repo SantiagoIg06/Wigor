@@ -3,6 +3,20 @@
     font-weight: 400;
     font-style: normal;
 }
+@media(min-width:1050px) {
+    *{
+        font-size: 20px;
+    }
+    .contRI2 {
+        width: 30%;
+    }
+    .contRI3 {
+        width: 60%;
+    }
+    .contRI3 img {
+        width: 100%;
+    }
+}
 body {
     /* background-color: #938576; Fondo beige claro */
     color: #000000; /* Texto en negro */
@@ -142,7 +156,7 @@ div h1 {
     display: flex;
 }
 .contRI2 {
-    width: 60%;
+    width: 50%;
 }
 .contRI3 {
     width: 50%;
